@@ -1,6 +1,6 @@
 var makeJsonFromTable = function(tableID) {
     var tbl = $('#' + tableID)
-    if ($(tbl).prop("tagName") == "TABLE") {
+    if ($(tbl).prop("tagName") != "TABLE") {
         alert("Somthing is going worng !");
         return false;
     }
