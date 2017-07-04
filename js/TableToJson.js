@@ -10,6 +10,7 @@ var makeJsonFromTable = function(tableID) {
     var tblbodyCount = $(tbl).find('tbody>tr').length;
     var header = [];
     var JObjectArray = [];
+
     $.each($(tblhead).find('tr>th'), function(i, j) {
         header.push($(j).text())
     })
