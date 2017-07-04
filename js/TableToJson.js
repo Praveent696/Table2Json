@@ -4,6 +4,7 @@ var makeJsonFromTable = function(tableID) {
         alert("Somthing is going worng !");
         return false;
     }
+
     var tblhead = $(tbl).find('thead')
     var tblbody = $(tbl).find('tbody')
     var tblbodyCount = $(tbl).find('tbody>tr').length;
